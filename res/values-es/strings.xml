@@ -2,16 +2,16 @@
     <string name="app_name" translatable="false">Merg</string>
 
     <!-- Main menu !-->
-    <string name="singleplayer">Singleplayer</string>
-    <string name="multiplayer">Multiplayer</string>
-    <string name="options">Options</string>
+    <string name="singleplayer">Un solo Jugador/string>
+    <string name="multiplayer">Multijugador</string>
+    <string name="options">Opciones</string>
     <string name="discord" translatable="false">Discord</string>
 
     <!-- Support menu !-->
     <string name="email" translatable="false">redpixels.studio21@gmail.com</string>
-    <string name="email_copy">Copy Email</string>
-    <string name="email_support">Support Mail:</string>
-    <string name="developer">Developer:</string>
+    <string name="email_copy">Copiar Email</string>
+    <string name="email_support">Email de Soporte:</string>
+    <string name="developer">Desarrolladores:</string>
     <string name="developer_names" translatable="false">Manu1223\nKuchen</string>
     <string name="skins">Skins:</string>
     <string name="skins_names" translatable="false">𝑵𝒆𝒚𝒌𝒐𝒐𝒌 𖣂</string>
@@ -52,9 +52,9 @@
     <string name="select_mode">Seleccionar modo</string>
     <string name="decrease_time">Disminuir el tiempo</string>
     <string name="increase_time">Aumentar el tiempo</string>
-    <string name="grace_period">Periodo de gracia</string>
-    <string name="decrease_grace">Disminuir el periodo de gracia</string>
-    <string name="increase_grace">Aumentar el periodo de gracia</string>
+    <string name="grace_period">Periodo de tiempo extra</string>
+    <string name="decrease_grace">Disminuir el periodo de tiempo extra</string>
+    <string name="increase_grace">Aumentar el periodo de tiempo extra</string>
     <string name="elimination_count">Conteo de eliminación</string>
     <string name="decrease_elimination_count">Disminuir el recuento de eliminación</string>
     <string name="increase_elimination_count">Aumentar el recuento de eliminación</string>
@@ -62,7 +62,7 @@
     <string name="decrease_elimination_interval">Disminuir el intervalo de eliminación</string>
     <string name="increase_elimination_interval">Aumentar el intervalo de eliminación</string>
     <string name="map_size">Tamaño de mapa</string>
-    <string name="bot_count">recuento de bots</string>
+    <string name="bot_count">Recuento de bots</string>
     <string name="bot_difficulty">Dificultad del bot</string>
     <string name="decrease_bots">Disminuir Bots</string>
     <string name="increase_bots">Aumentar Bots</string>
@@ -111,14 +111,14 @@
     <string name="gamemode_teams">Equipos</string>
     <string name="gamemode_survival">Supervivencia</string>
     <string name="gamemode_team_survival">Equipo de supervivencia</string>
-    <string name="gamemode_knockout">Knockout</string>
+    <string name="gamemode_knockout">Knockear</string>
     <string name="gamemode_adventure">Aventura</string>
     <string name="gamemode_coming_soon">Muy pronto</string>
-    <string name="description_classic">¡Cómete a jugadores más pequeños y conviértete en la masa más grande del universo! Usa tu tamaño para dominar el mapa, ¡pero ten cuidado con los jugadores más grandes que quieren comerte!</string>
+    <string name="description_classic">¡Cómete a jugadores más pequeños y conviértete en la masa más grande del universo! Usa tu tamaño para dominar el mapa, ¡pero ten cuidado con los jugadores más grandes te quieren comerte!</string>
     <string name="description_teams">¡Une fuerzas con otros jugadores del mismo color! Trabajen juntos para atrapar enemigos y convertirse en el equipo que domine la clasificación. Los compañeros de equipo no pueden comerse entre sí.</string>
-    <string name="description_survival">¡Una vida, una ronda! Recoge todo lo que puedas antes de que se acabe el periodo de gracia. Después de eso, ¡la muerte es definitiva! ¡Sé el último en pie o el más grande cuando se acabe el tiempo para ganar!</string>
+    <string name="description_survival">¡Una vida, una ronda! Recoge todo lo que puedas antes de que se acabe el tiempo extra. Después de eso, ¡la muerte es definitiva! ¡Sé el último en pie o el más grande cuando se acabe el tiempo para ganar!</string>
     <string name="description_team_survival">¡Modo supervivencia por equipos! Trabaja con tus compañeros para eliminar a otros equipos. ¡El último equipo en pie o el que tenga el mayor número de jugadores en su equipo al agotarse el tiempo gana!</string>
-    <string name="description_knockout">¡Compite en rondas eliminatorias! Los jugadores pueden reaparecer libremente hasta ser eliminados a intervalos regulares. Los jugadores más pequeños en cada intervalo son eliminados permanentemente. ¡Sé el último en pie para ganar!</string>
+    <string name="description_knockout">¡Compite en rondas eliminatorias! Los jugadores pueden reaparecer libremente hasta ser eliminados en intervalos regulares. Los jugadores más pequeños en cada intervalo son eliminados permanentemente. ¡Sé el último en pie para ganar!</string>
     <string name="description_adventure">¡Completa etapas desafiantes con objetivos únicos! Avanza por niveles de dificultad creciente, gana recompensas y descubre hasta dónde puedes llegar. ¡Cada etapa trae nuevos desafíos!</string>
     <string name="description_coming_soon">¡Este modo estará disponible próximamente, no te lo pierdas!</string>
 
@@ -134,6 +134,7 @@
 
     <!-- Adventure mode !-->
     <string name="adventure_stage">Escenario</string>
+    <string name="adventure_initializing">Iniciando Aventura…</string>
     <string name="adventure_obj_eat_all_bots">Come todos los bots</string>
     <string name="adventure_obj_survive">Sobrevivir</string>
     <string name="adventure_obj_high_speed">¡Alta velocidad!</string>
@@ -141,7 +142,7 @@
 
     <!-- Timer text !-->
     <string name="timer_time">Tiempo</string>
-    <string name="timer_grace">Gracia</string>
+    <string name="timer_grace">Tiempo extra</string>
     <string name="timer_tiebreaker">Desempate</string>
     <string name="timer_winner">Ganador</string>
 
@@ -206,7 +207,7 @@
     <string name="effective_size">Tamaño efectivo: %d</string>
     <string name="decay">Decadencia: %.2f/s</string>
     <string name="pieces">Piezas: %1d/%2d</string>
-    <string name="merge">Unir: %ss</string>
+    <string name="merge">Unirse: %ss</string>
     <string name="invincibility">Invencibilidad: %ss</string>
     <string name="speed_boost">+Velocidad: %ss</string>
     <string name="xp" translatable="false">XP</string>
@@ -219,8 +220,8 @@
     <string name="session_stat_highest_size">Tamaño más grande</string>
     <string name="leaderboard">Tabla de clasificación</string>
     <string name="session_stats">Estadísticas de sesión</string>
-    <string name="debug">Debug</string>
-    <string name="profiler">Profiler</string>
+    <string name="debug">Depuracion</string>
+    <string name="profiler">Perfil</string>
 
     <!-- Miscellaneous !-->
     <string name="play">Jugar</string>
@@ -246,7 +247,7 @@
     <string name="no_one">Nadie</string>
     <string name="map">Mapa</string>
     <string name="size">Tamaño</string>
-    <string name="shots">Tiros</string>
+    <string name="shots">Disparo</string>
     <string name="bot">Bot</string>
     <string name="bots">Bots</string>
     <string name="fps" translatable="false">FPS</string>
@@ -264,7 +265,18 @@
     <string name="unknown">Desconocido</string>
     <string name="invalid_selection">¡Selección no válida!</string>
     <string name="error">Error</string>
-    <string name="room_crash">Room crashed: %s</string>
     <string name="copied_to_clipboard">Copiado al portapapeles.</string>
+
+     <!-- Dialogs -->
+    <string name="dialog_confirm">Confirmar</string>
+    <string name="dialog_leave_game">Salir del juego?</string>
+    <string name="dialog_respawn_warning">Reaparecer? Perderás todo tu tamaño.</string>
+    <string name="dialog_change_language">Cambia el lenguaje a %s? La aplicacion necesita recargarse.</string>
+    <string name="room_crash">Sala Crasheada: %s</string>
+    <string name="dialog_yes">SI</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_copy">COPIADO</string>
+    <string name="toast_please_wait">Por favor Espera</string>
 
 </resources>
